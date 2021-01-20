@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cf120ff.chunk.css",
-    "main.js": "/static/js/main.26ae08eb.chunk.js",
-    "main.js.map": "/static/js/main.26ae08eb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.32fb36b3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.32fb36b3.js.map",
-    "static/css/2.c595a105.chunk.css": "/static/css/2.c595a105.chunk.css",
-    "static/js/2.a0196e0d.chunk.js": "/static/js/2.a0196e0d.chunk.js",
-    "static/js/2.a0196e0d.chunk.js.map": "/static/js/2.a0196e0d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.473db8188fc00b892630ace16f3d2335.js": "/precache-manifest.473db8188fc00b892630ace16f3d2335.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.c595a105.chunk.css.map": "/static/css/2.c595a105.chunk.css.map",
-    "static/css/main.6cf120ff.chunk.css.map": "/static/css/main.6cf120ff.chunk.css.map",
-    "static/js/2.a0196e0d.chunk.js.LICENSE": "/static/js/2.a0196e0d.chunk.js.LICENSE"
+    "main.css": "/sentilojn/static/css/main.6cf120ff.chunk.css",
+    "main.js": "/sentilojn/static/js/main.8f150918.chunk.js",
+    "main.js.map": "/sentilojn/static/js/main.8f150918.chunk.js.map",
+    "runtime-main.js": "/sentilojn/static/js/runtime-main.a81e82ca.js",
+    "runtime-main.js.map": "/sentilojn/static/js/runtime-main.a81e82ca.js.map",
+    "static/css/2.c595a105.chunk.css": "/sentilojn/static/css/2.c595a105.chunk.css",
+    "static/js/2.a0196e0d.chunk.js": "/sentilojn/static/js/2.a0196e0d.chunk.js",
+    "static/js/2.a0196e0d.chunk.js.map": "/sentilojn/static/js/2.a0196e0d.chunk.js.map",
+    "index.html": "/sentilojn/index.html",
+    "precache-manifest.13dd72473d27001b6f2ab844f8ef25d5.js": "/sentilojn/precache-manifest.13dd72473d27001b6f2ab844f8ef25d5.js",
+    "service-worker.js": "/sentilojn/service-worker.js",
+    "static/css/2.c595a105.chunk.css.map": "/sentilojn/static/css/2.c595a105.chunk.css.map",
+    "static/css/main.6cf120ff.chunk.css.map": "/sentilojn/static/css/main.6cf120ff.chunk.css.map",
+    "static/js/2.a0196e0d.chunk.js.LICENSE": "/sentilojn/static/js/2.a0196e0d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.32fb36b3.js",
+    "static/js/runtime-main.a81e82ca.js",
     "static/css/2.c595a105.chunk.css",
     "static/js/2.a0196e0d.chunk.js",
     "static/css/main.6cf120ff.chunk.css",
-    "static/js/main.26ae08eb.chunk.js"
+    "static/js/main.8f150918.chunk.js"
   ]
 }
