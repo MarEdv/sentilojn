@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sentilojn/precache-manifest.13dd72473d27001b6f2ab844f8ef25d5.js"
+  "/sentilojn/precache-manifest.701aece7b9dfbc46a8d3d3bf6a5cd738.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -37,3 +37,14 @@ workbox.routing.registerNavigationRoute(workbox.precaching.getCacheKeyForURL("/s
   
   blacklist: [/^\/_/,/\/[^/?]+\.[^/]+$/],
 });
+self.addEventListener('push', event => {
+    console.log('Event', event)
+    const data = event.data.json();
+    console.log('New notification', data)
+    const options = {
+        body: data.body,
+    }
+    event.waitUntil(
+        self.registration.showNotification(data.title, options)
+    );
+})
