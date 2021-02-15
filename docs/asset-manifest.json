@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sentilojn/static/css/main.6cf120ff.chunk.css",
-    "main.js": "/sentilojn/static/js/main.5ec86c23.chunk.js",
-    "main.js.map": "/sentilojn/static/js/main.5ec86c23.chunk.js.map",
+    "main.js": "/sentilojn/static/js/main.57d80c50.chunk.js",
+    "main.js.map": "/sentilojn/static/js/main.57d80c50.chunk.js.map",
     "runtime-main.js": "/sentilojn/static/js/runtime-main.a81e82ca.js",
     "runtime-main.js.map": "/sentilojn/static/js/runtime-main.a81e82ca.js.map",
     "static/css/2.c595a105.chunk.css": "/sentilojn/static/css/2.c595a105.chunk.css",
     "static/js/2.a0196e0d.chunk.js": "/sentilojn/static/js/2.a0196e0d.chunk.js",
     "static/js/2.a0196e0d.chunk.js.map": "/sentilojn/static/js/2.a0196e0d.chunk.js.map",
     "index.html": "/sentilojn/index.html",
-    "precache-manifest.701aece7b9dfbc46a8d3d3bf6a5cd738.js": "/sentilojn/precache-manifest.701aece7b9dfbc46a8d3d3bf6a5cd738.js",
+    "precache-manifest.fc5efe935847dd1125135d4523732cac.js": "/sentilojn/precache-manifest.fc5efe935847dd1125135d4523732cac.js",
     "service-worker.js": "/sentilojn/service-worker.js",
     "static/css/2.c595a105.chunk.css.map": "/sentilojn/static/css/2.c595a105.chunk.css.map",
     "static/css/main.6cf120ff.chunk.css.map": "/sentilojn/static/css/main.6cf120ff.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.c595a105.chunk.css",
     "static/js/2.a0196e0d.chunk.js",
     "static/css/main.6cf120ff.chunk.css",
-    "static/js/main.5ec86c23.chunk.js"
+    "static/js/main.57d80c50.chunk.js"
   ]
 }
