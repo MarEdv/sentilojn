@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/sentilojn/test/static/js/main.7f74d5aa.chunk.js",
-    "main.js.map": "/sentilojn/test/static/js/main.7f74d5aa.chunk.js.map",
+    "main.js": "/sentilojn/test/static/js/main.4b329313.chunk.js",
+    "main.js.map": "/sentilojn/test/static/js/main.4b329313.chunk.js.map",
     "runtime-main.js": "/sentilojn/test/static/js/runtime-main.64f89ef8.js",
     "runtime-main.js.map": "/sentilojn/test/static/js/runtime-main.64f89ef8.js.map",
-    "static/js/2.a0d8d7f4.chunk.js": "/sentilojn/test/static/js/2.a0d8d7f4.chunk.js",
-    "static/js/2.a0d8d7f4.chunk.js.map": "/sentilojn/test/static/js/2.a0d8d7f4.chunk.js.map",
+    "static/js/2.493cc3f2.chunk.js": "/sentilojn/test/static/js/2.493cc3f2.chunk.js",
+    "static/js/2.493cc3f2.chunk.js.map": "/sentilojn/test/static/js/2.493cc3f2.chunk.js.map",
     "index.html": "/sentilojn/test/index.html",
-    "precache-manifest.79540fd9bbe013941956820411cea80b.js": "/sentilojn/test/precache-manifest.79540fd9bbe013941956820411cea80b.js",
+    "precache-manifest.e1543333da7957ecb5ec2bcaa7c8b69c.js": "/sentilojn/test/precache-manifest.e1543333da7957ecb5ec2bcaa7c8b69c.js",
     "service-worker.js": "/sentilojn/test/service-worker.js",
-    "static/js/2.a0d8d7f4.chunk.js.LICENSE": "/sentilojn/test/static/js/2.a0d8d7f4.chunk.js.LICENSE"
+    "static/js/2.493cc3f2.chunk.js.LICENSE": "/sentilojn/test/static/js/2.493cc3f2.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.64f89ef8.js",
-    "static/js/2.a0d8d7f4.chunk.js",
-    "static/js/main.7f74d5aa.chunk.js"
+    "static/js/2.493cc3f2.chunk.js",
+    "static/js/main.4b329313.chunk.js"
   ]
 }
