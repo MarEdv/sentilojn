@@ -85,24 +85,35 @@ const updateSensor = ({ sensorId, snoozeUntil }) => {
         });
 };
 
+const doSomething = (event) => {
+    switch (event.action) {
+        case 'snooze-1':
+            console.log('Snoozed for 1h.', event.notification.data);
+            return updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 1 * 60 * 60) });
+        case 'snooze-24':
+            console.log('Snoozed for 24h.', event.notification.data);
+            return updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 24 * 60 * 60) });
+        default:
+            console.log(`Unknown action clicked: '${event.action}'`);
+            return Promise.reject(new Error('fail'));
+    }
+};
+
 self.addEventListener('notificationclick', function (event) {
     if (!event.action) {
         // Was a normal notification click
         console.log('Notification Click.');
+
+        const clickedNotification = event.notification;
+        clickedNotification.close();
+        
         return;
     }
 
-    switch (event.action) {
-        case 'snooze-1':
-            console.log('Snoozed for 1h.', event.notification.data);
-            updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 1 * 60 * 60) });
-            break;
-        case 'snooze-24':
-            console.log('Snoozed for 24h.', event.notification.data);
-            updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 24 * 60 * 60) });
-            break;
-        default:
-            console.log(`Unknown action clicked: '${event.action}'`);
-            break;
-    }
+    const clickedNotification = event.notification;
+    clickedNotification.close();
+  
+    // Do something as the result of the notification click
+    const promiseChain = doSomething(event);
+    event.waitUntil(promiseChain);
 });
