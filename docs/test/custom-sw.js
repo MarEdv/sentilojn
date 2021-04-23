@@ -13,8 +13,8 @@ self.addEventListener('push', event => {
         }
     ];
     const options = {
-        body: data.body.message,
-        tag: `sentilojn-${data.body.sensorId}`,
+        body: `Test: ${data.body.message}`,
+        tag: `sentilojn-${data.body.sensorId}-test`,
         data: { sensorId: data.body.sensorId },
         renotify: true,
         actions,

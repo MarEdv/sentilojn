@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sentilojn/test/precache-manifest.874e17de8831a6bf362669e8e344ef20.js"
+  "/sentilojn/test/precache-manifest.ab1edafbfe210eb1d19c4c0eea14e593.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -52,8 +52,8 @@ self.addEventListener('push', event => {
         }
     ];
     const options = {
-        body: data.body.message,
-        tag: `sentilojn-${data.body.sensorId}`,
+        body: `Test: ${data.body.message}`,
+        tag: `sentilojn-${data.body.sensorId}-test`,
         data: { sensorId: data.body.sensorId },
         renotify: true,
         actions,
