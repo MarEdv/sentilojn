@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d7fa600cebbf6b4123ddab35aea8480f",
+    "revision": "e6883a4f02b4e27e90ba5383ac366a46",
     "url": "/sentilojn/test/index.html"
   },
   {
-    "revision": "4992caf4207fe39f5648",
+    "revision": "3f6b8d15656fb30f2003",
     "url": "/sentilojn/test/static/css/2.d9dce1d4.chunk.css"
   },
   {
-    "revision": "4992caf4207fe39f5648",
-    "url": "/sentilojn/test/static/js/2.1e5e57fd.chunk.js"
+    "revision": "3f6b8d15656fb30f2003",
+    "url": "/sentilojn/test/static/js/2.59a2d4a8.chunk.js"
   },
   {
     "revision": "d3c9679a2125a3b6cc8b91d28438d765",
-    "url": "/sentilojn/test/static/js/2.1e5e57fd.chunk.js.LICENSE"
+    "url": "/sentilojn/test/static/js/2.59a2d4a8.chunk.js.LICENSE"
   },
   {
-    "revision": "061105990e1505bedc1c",
-    "url": "/sentilojn/test/static/js/main.7c1c5a43.chunk.js"
+    "revision": "8ff17a0be6137a1e7a5b",
+    "url": "/sentilojn/test/static/js/main.962c1634.chunk.js"
   },
   {
     "revision": "1690eda528a27b852a5b",
