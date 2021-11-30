@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sentilojn/saltilo/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/sentilojn/saltilo/static/js/main.a8070ca5.chunk.js",
+    "main.js.map": "/sentilojn/saltilo/static/js/main.a8070ca5.chunk.js.map",
+    "runtime-main.js": "/sentilojn/saltilo/static/js/runtime-main.f6932eb7.js",
+    "runtime-main.js.map": "/sentilojn/saltilo/static/js/runtime-main.f6932eb7.js.map",
+    "static/js/2.43527b7e.chunk.js": "/sentilojn/saltilo/static/js/2.43527b7e.chunk.js",
+    "static/js/2.43527b7e.chunk.js.map": "/sentilojn/saltilo/static/js/2.43527b7e.chunk.js.map",
+    "static/js/3.89b183ac.chunk.js": "/sentilojn/saltilo/static/js/3.89b183ac.chunk.js",
+    "static/js/3.89b183ac.chunk.js.map": "/sentilojn/saltilo/static/js/3.89b183ac.chunk.js.map",
+    "index.html": "/sentilojn/saltilo/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/sentilojn/saltilo/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.43527b7e.chunk.js.LICENSE.txt": "/sentilojn/saltilo/static/js/2.43527b7e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6932eb7.js",
+    "static/js/2.43527b7e.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.a8070ca5.chunk.js"
+  ]
+}
