@@ -24,14 +24,31 @@ self.addEventListener('push', event => {
     );
 });
 
+const updateSensor = (sensorId, snoozeUntil) => {
+    return fetch(`https://3gzxlzr6d4.execute-api.us-east-1.amazonaws.com/dev/sensor/${sensorId}`,
+      {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        method: 'PATCH',
+        body: JSON.stringify({ snoozeUntil })
+      }
+    )
+      .then(response => response.json())
+      .catch((error) => {
+        console.error('ERROR', error);
+      });
+  };  
+
 const handleNotificationClick = (event) => {
     switch (event.action) {
         case 'snooze-1':
             console.log('Snoozed for 1h.', event.notification.data);
-            return updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 1 * 60 * 60) });
+            return updateSensor(event.notification.data.sensorId, new Date().getTime() + (1000 * 1 * 60 * 60));
         case 'snooze-24':
             console.log('Snoozed for 24h.', event.notification.data);
-            return updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 24 * 60 * 60) });
+            return updateSensor(event.notification.data.sensorId, new Date().getTime() + (1000 * 24 * 60 * 60));
         default:
             console.log(`Unknown action clicked: '${event.action}'`);
             return Promise.reject(new Error(`Unknown action clicked: '${event.action}'`));

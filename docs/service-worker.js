@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/sentilojn/precache-manifest.94f861f1bea36645f88a90d60638e88c.js"
+  "/sentilojn/precache-manifest.0aad78b3fe36040b7f477a1c4ca092d7.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -63,14 +63,31 @@ self.addEventListener('push', event => {
     );
 });
 
+const updateSensor = (sensorId, snoozeUntil) => {
+    return fetch(`https://3gzxlzr6d4.execute-api.us-east-1.amazonaws.com/dev/sensor/${sensorId}`,
+      {
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        method: 'PATCH',
+        body: JSON.stringify({ snoozeUntil })
+      }
+    )
+      .then(response => response.json())
+      .catch((error) => {
+        console.error('ERROR', error);
+      });
+  };  
+
 const handleNotificationClick = (event) => {
     switch (event.action) {
         case 'snooze-1':
             console.log('Snoozed for 1h.', event.notification.data);
-            return updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 1 * 60 * 60) });
+            return updateSensor(event.notification.data.sensorId, new Date().getTime() + (1000 * 1 * 60 * 60));
         case 'snooze-24':
             console.log('Snoozed for 24h.', event.notification.data);
-            return updateSensor({ sensorId: event.notification.data.sensorId, snoozeUntil: new Date().getTime() + (1000 * 24 * 60 * 60) });
+            return updateSensor(event.notification.data.sensorId, new Date().getTime() + (1000 * 24 * 60 * 60));
         default:
             console.log(`Unknown action clicked: '${event.action}'`);
             return Promise.reject(new Error(`Unknown action clicked: '${event.action}'`));

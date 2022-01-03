@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/sentilojn/static/js/main.b958f621.chunk.js",
-    "main.js.map": "/sentilojn/static/js/main.b958f621.chunk.js.map",
+    "main.js": "/sentilojn/static/js/main.efbfc2ba.chunk.js",
+    "main.js.map": "/sentilojn/static/js/main.efbfc2ba.chunk.js.map",
     "runtime-main.js": "/sentilojn/static/js/runtime-main.a81e82ca.js",
     "runtime-main.js.map": "/sentilojn/static/js/runtime-main.a81e82ca.js.map",
     "static/css/2.d9dce1d4.chunk.css": "/sentilojn/static/css/2.d9dce1d4.chunk.css",
     "static/js/2.7382b0a1.chunk.js": "/sentilojn/static/js/2.7382b0a1.chunk.js",
     "static/js/2.7382b0a1.chunk.js.map": "/sentilojn/static/js/2.7382b0a1.chunk.js.map",
     "index.html": "/sentilojn/index.html",
-    "precache-manifest.94f861f1bea36645f88a90d60638e88c.js": "/sentilojn/precache-manifest.94f861f1bea36645f88a90d60638e88c.js",
+    "precache-manifest.0aad78b3fe36040b7f477a1c4ca092d7.js": "/sentilojn/precache-manifest.0aad78b3fe36040b7f477a1c4ca092d7.js",
     "service-worker.js": "/sentilojn/service-worker.js",
     "static/css/2.d9dce1d4.chunk.css.map": "/sentilojn/static/css/2.d9dce1d4.chunk.css.map",
     "static/js/2.7382b0a1.chunk.js.LICENSE": "/sentilojn/static/js/2.7382b0a1.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a81e82ca.js",
     "static/css/2.d9dce1d4.chunk.css",
     "static/js/2.7382b0a1.chunk.js",
-    "static/js/main.b958f621.chunk.js"
+    "static/js/main.efbfc2ba.chunk.js"
   ]
 }
